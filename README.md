@@ -21,6 +21,9 @@ Goal is to understand the differences between ViTs and CNNs in relation to image
 
 **Vision Transformers function like transformers do on language processing tasks. ViT's just use self attention to aggregate info instead of using convolution like NNs.**
 
+![image](https://user-images.githubusercontent.com/64801054/197887648-12933762-236c-44f9-b77f-0425cfebd030.png)
+Dosovitskiy et al. 2020
+
 - Used several ResNet CNNs and ViT models to compare using CKA
   -  Centered Kernal Alignment method to compare similarity across the model layers
 - Trained models on the JFT-300M data set
@@ -43,6 +46,10 @@ https://huggingface.co/docs/transformers/model_doc/vit
 
 GitHub associated with Dosovitsky et al. paper: 
 https://github.com/google-research/vision_transformer
+
+Original Vision Transformer proposal paper: https://arxiv.org/abs/2010.11929
+A. Dosovitskiy, L. Beyer, A. Kolesnikov, D. Weissenborn, X. Zhai, T. Unterthiner, M. Dehghani, M. Minderer, G. Heigold, S. Gelly, et al. An image is worth 16x16 words: Transformers for image recognition at scale. arXiv preprint arXiv:2010.11929, 2020.
+
 
 
 ### Sources
