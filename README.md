@@ -1,28 +1,31 @@
 
-## **Do vision transformers see like convolutional neural networks?**
+## **How do vision transformers work?**
 
 ### Problem 
 
-How do Vision Transformers (ViT) perform image classification tasks? How is it different from the way Convolutional Neural Networks perform image classification?
+How do Vision Transformers (ViT) work? 
 
-Goal is to understand the differences between ViTs and CNNs in relation to image tasks. 
+Goal is to understand:
+- what parts of multi head self attentions are helpful in optimizing neural networks?
+- if multi head self attentions act like convolutional layers, and if not, how are they different?
+- how to use both multi head self attentions and convolutional layers to our advantage?
 
 ### Approach
-- Looked at the representation structures of ViTs and CNNs 
-- Analyzed use of global and local spatial information
+- 
 - 
 
 #### Prior research
-- explored combining CNNs with self attention
-- looked at using local multi headed self attention
 - 
+-
 
 ### Solution
 
 **Vision Transformers function like transformers do on language processing tasks. ViT's just use self attention to aggregate info instead of using convolution like NNs.**
 
-![image](https://user-images.githubusercontent.com/64801054/197887648-12933762-236c-44f9-b77f-0425cfebd030.png)
+![image](https://user-images.githubusercontent.com/64801054/197888096-7dd5e6be-e87c-49a6-80e6-1dd071271f56.png)
 Dosovitskiy et al. 2020
+
+
 
 - Used several ResNet CNNs and ViT models to compare using CKA
   -  Centered Kernal Alignment method to compare similarity across the model layers
@@ -30,31 +33,28 @@ Dosovitskiy et al. 2020
 
 - Found that more ResNet layers were used to complete tasks that ViT models can do using fewer layers
 
-![image](https://user-images.githubusercontent.com/64801054/197649996-377a5da4-7466-4834-a3a7-2423add0561d.png)
-
 - ViT models have more similarity between lower and higher layers than ResNet models
 
-![image](https://user-images.githubusercontent.com/64801054/197417979-e5afa940-8594-4228-8b85-d371a6243f92.png)
 
 ### Questions:
 
+1. Does any one have any questions?
+2. somehting else 
 
 ### Additional resources
 
 Hugging face ViT information:
 https://huggingface.co/docs/transformers/model_doc/vit
 
-GitHub associated with Dosovitsky et al. paper: 
-https://github.com/google-research/vision_transformer
-
 Original Vision Transformer proposal paper: https://arxiv.org/abs/2010.11929
 A. Dosovitskiy, L. Beyer, A. Kolesnikov, D. Weissenborn, X. Zhai, T. Unterthiner, M. Dehghani, M. Minderer, G. Heigold, S. Gelly, et al. An image is worth 16x16 words: Transformers for image recognition at scale. arXiv preprint arXiv:2010.11929, 2020.
 
-
+GitHub associated with Dosovitsky et al. paper: 
+https://github.com/google-research/vision_transformer
 
 ### Sources
 
-origninal paper: https://arxiv.org/abs/2108.08810
+origninal paper: https://arxiv.org/abs/2202.06709v1
 
 A. Dosovitskiy, L. Beyer, A. Kolesnikov, D. Weissenborn, X. Zhai, T. Unterthiner, M. Dehghani, M. Minderer, G. Heigold, S. Gelly, et al. An image is worth 16x16 words: Transformers for image recognition at scale. arXiv preprint arXiv:2010.11929, 2020.
 
