@@ -38,5 +38,20 @@ Goal is to understand the differences between ViTs and CNNs in relation to image
 
 ### Additional resources
 
+Hugging face ViT information:
+https://huggingface.co/docs/transformers/model_doc/vit
+
+GitHub associated with Dosovitsky et al. paper: 
+https://github.com/google-research/vision_transformer
+
 
 ### Sources
+
+origninal paper: https://arxiv.org/abs/2108.08810
+
+A. Dosovitskiy, L. Beyer, A. Kolesnikov, D. Weissenborn, X. Zhai, T. Unterthiner, M. Dehghani, M. Minderer, G. Heigold, S. Gelly, et al. An image is worth 16x16 words: Transformers for image recognition at scale. arXiv preprint arXiv:2010.11929, 2020.
+
+
+
+
+
