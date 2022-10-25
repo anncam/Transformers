@@ -33,13 +33,17 @@ Background:
 ![image](https://user-images.githubusercontent.com/64801054/197897709-cf550253-031d-4742-8e2d-7039804a98f8.png)
 
 Proposed ***AlterNet*** model
-- combines ViT and CNNs by changing ratio of multi head self attentions to convolutional layers which ended up outperforming CNNs and ViTs
+- combines ViT and CNNs by changing ratio of multi head self attentions to convolutional layers which ended up outperforming CNNs and ViTs even on very small data sets
 
 
 ## Questions:
 
 1. Does any one have any questions?
 2. somehting else 
+
+### Critical Analysis: 
+
+My only issue with this paper is that I don't feel like the title really matches the content. The title gives the impression that the paper is going to focus on the basics of how Vision Transformers work, which it did some, but it also focused on proposing a new model more than it focused on vision transformers in general. 
 
 ## Additional resources
 
