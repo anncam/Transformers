@@ -13,6 +13,8 @@ Goal is to understand the differences between ViTs and CNNs in relation to image
 - 
 
 #### Prior research
+- explored combining CNNs with self attention
+- looked at using local multi headed self attention
 - 
 
 ### Solution
