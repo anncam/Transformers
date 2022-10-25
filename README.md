@@ -16,6 +16,9 @@ Goal is to understand the differences between ViTs and CNNs in relation to image
 - 
 
 ### Solution
+
+**Vision Transformers function like transformers do on language processing tasks. ViT's just use self attention to aggregate info instead of using convolution like NNs.**
+
 - Used several ResNet CNNs and ViT models to compare using CKA
   -  Centered Kernal Alignment method to compare similarity across the model layers
 - Trained models on the JFT-300M data set
