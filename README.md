@@ -57,7 +57,7 @@ My main issue with this paper is that I don't feel like the title really matches
 ## Questions:
 
 1. What is one of the benefits of incorporating multi head self attention into a convolutional neural network like ResNet?
-2. Do you think that global and local spatial location informaiton would play a role in how a vision transformers performs? If so, how?
+2. How would the use of multi head self attention affect the use spatial location informaiton? 
 3. Does anyone have any other questions? 
 
 
