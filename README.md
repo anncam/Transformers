@@ -12,9 +12,6 @@ The authors explored:
 2. if multi head self attentions act like convolutional layers, and if not, how are they different?
 3. how to use both multi head self attentions and convolutional layers to our advantage?
 
-### Prior research
-- 
--
 
 ## Solution
 
@@ -23,7 +20,7 @@ The authors explored:
 ![image](https://user-images.githubusercontent.com/64801054/197888096-7dd5e6be-e87c-49a6-80e6-1dd071271f56.png)
 Dosovitskiy et al. 2020
 
-![image](https://user-images.githubusercontent.com/64801054/197893010-652a33a2-9de8-4873-8af5-afbf0cf17e24.png)
+![image](https://user-images.githubusercontent.com/64801054/197905222-4ba2c073-f018-407b-aa5a-c556744b6566.png)
 
 
 Background: 
@@ -39,13 +36,16 @@ Proposed ***AlterNet*** model
 ## Questions:
 
 1. Does any one have any questions?
-2. somehting else 
+2. How do you think that global and local spatial location informaiton would play a role in how a vision transformers performs?   
 
 ### Critical Analysis: 
 
 My only issue with this paper is that I don't feel like the title really matches the content. The title gives the impression that the paper is going to focus on the basics of how Vision Transformers work, which it did some, but it also focused on proposing a new model more than it focused on vision transformers in general. 
 
 ## Additional resources
+
+Overview of how vision transformers work: 
+https://theaisummer.com/vision-transformer/
 
 Hugging face ViT information:
 https://huggingface.co/docs/transformers/model_doc/vit
