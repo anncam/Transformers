@@ -3,7 +3,7 @@
 
 ## Problem 
 
-How do Vision Transformers (ViT) work? 
+How do Vision Transformers (ViTs) work? 
 
 ## Approach
 
@@ -19,6 +19,16 @@ The authors explored:
 
 ![image](https://user-images.githubusercontent.com/64801054/197888096-7dd5e6be-e87c-49a6-80e6-1dd071271f56.png)
 Dosovitskiy et al. 2020
+
+1. images are split into "patches" which act as sequence tokens in this case
+2. patches are flattened
+3. get linear embedding from patches
+4. add positional embeddings to the patches
+5. feed into a transformer encoder
+6. pretrain using labeled images
+7. finetune model later for image classification
+
+- ViTs rival CNNs when it comes to large data sets, but don't do as well on smaller data sets.  
 
 ![image](https://user-images.githubusercontent.com/64801054/197905222-4ba2c073-f018-407b-aa5a-c556744b6566.png)
 
@@ -44,7 +54,7 @@ My only issue with this paper is that I don't feel like the title really matches
 
 ## Additional resources
 
-Overview of how vision transformers work: 
+Overview of how ViTs work: 
 https://theaisummer.com/vision-transformer/
 
 Hugging face ViT information:
