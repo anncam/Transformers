@@ -3,7 +3,7 @@
 
 ## Problem 
 
-How do Vision Transformers (ViTs) work? 
+How do Vision Transformers (ViTs) work and what role does multi head self attention play in ViT models? 
 
 ## Approach
 
@@ -15,7 +15,7 @@ The authors explored:
 
 ## Solution
 
-**Vision Transformers function like transformers do on language processing tasks. ViT's just use self attention to aggregate info instead of using convolution like NNs.**
+**Vision Transformers function like transformers do on language processing tasks. ViT's just use self attention to aggregate information instead of using convolution like CNNs.**
 
 ![image](https://user-images.githubusercontent.com/64801054/197888096-7dd5e6be-e87c-49a6-80e6-1dd071271f56.png)
 Dosovitskiy et al. 2020
@@ -28,29 +28,36 @@ Dosovitskiy et al. 2020
 6. pretrain using labeled images
 7. finetune model later for image classification
 
-    - ViTs rival CNNs when it comes to large data sets, but don't do as well on smaller data sets.  
+**Models used in experiment:**
+- vanilla ViT
+- PiT (which is “ViT + multi-stage”) 
+- Swin (which is “ViT + multi-stage + local MSA")
+- ResNet 
 
 ![image](https://user-images.githubusercontent.com/64801054/197905222-4ba2c073-f018-407b-aa5a-c556744b6566.png)
 
-
-Background: 
-- used "vanilla" ViT, PiT, which is “ViT + multi-stage”, and Swin, which is “ViT + multi-stage + local MSA".
-
+- ViT models show more similarity between higher and lower layers
+- multi head self attentions aggregate feature maps while convolutional layers diversify them
+- multi head self attentions improve model accuracy and robustness
 
 ![image](https://user-images.githubusercontent.com/64801054/197897709-cf550253-031d-4742-8e2d-7039804a98f8.png)
 
-Proposed ***AlterNet*** model
-- combines ViT and CNNs by changing ratio of multi head self attentions to convolutional layers which ended up outperforming CNNs and ViTs even on very small data sets
+Proposed ***AlterNet*** model to incorporate the advantages of ViT and CNN models: 
+- Combines ViT and CNNs by changing ratio of multi head self attentions to convolutional layers 
+- Ended up outperforming CNNs and ViTs even on very small data sets
 
+## ViT Example code:
+https://github.com/anncam/Transformers/blob/main/ViT_example.ipynb
 
 ## Questions:
 
-1. Does any one have any questions?
-2. How do you think that global and local spatial location informaiton would play a role in how a vision transformers performs?   
+1. How do you think that global and local spatial location informaiton would play a role in how a vision transformers performs?  
+2. 
+3. Does anyone have any other questions? 
 
 ### Critical Analysis: 
 
-My only issue with this paper is that I don't feel like the title really matches the content. The title gives the impression that the paper is going to focus on the basics of how Vision Transformers work, which it did some, but it also focused on proposing a new model more than it focused on vision transformers in general. 
+My only issue with this paper is that I don't feel like the title really matches the content. The title gives the impression that the paper is going to focus on the basics of how Vision Transformers work, which it did some what, but it also focused on proposing a new model. The authors could have added more information on vision transformers in general to supplement their AlterNet model idea. 
 
 ## Additional resources
 
