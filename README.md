@@ -43,6 +43,8 @@ The authors explored:
 
 Proposed ***AlterNet*** model to incorporate the advantages of ViT and CNN models: 
 - Combines ViT and CNNs by changing ratio of multi head self attentions to convolutional layers 
+  -   first add a MSA block at the end of a CNN model
+  -   if that doesn't improve the model, add move MSAs at earlier stages throughout model
 - Ended up outperforming CNNs and ViTs even on very small data sets
 
 ## ViT Example code:
@@ -50,7 +52,7 @@ https://github.com/anncam/Transformers/blob/main/ViT_example.ipynb
 
 ### Analysis: 
 
-My only issue with this paper is that I don't feel like the title really matches the content. The title gives the impression that the paper is going to focus on the basics of how Vision Transformers work, which it did some what, but it also focused on proposing a new model. The authors could have added more information on vision transformers in general to supplement their AlterNet model idea. 
+My mqin issue with this paper is that I don't feel like the title really matches the focus of the paper. The title gives the impression that the paper is going to focus on the basics of how Vision Transformers work, which it did some what, but it also focused on proposing a new model. The authors could have added more information on vision transformers in general to supplement their AlterNet model idea. 
 
 ## Questions:
 
