@@ -28,13 +28,13 @@ Dosovitskiy et al. 2020
 6. pretrain using labeled images
 7. finetune model later for image classification
 
-- ViTs rival CNNs when it comes to large data sets, but don't do as well on smaller data sets.  
+    - ViTs rival CNNs when it comes to large data sets, but don't do as well on smaller data sets.  
 
 ![image](https://user-images.githubusercontent.com/64801054/197905222-4ba2c073-f018-407b-aa5a-c556744b6566.png)
 
 
 Background: 
-- used vanilla ViT (Dosovitskiy et al., 2021), PiT (Heo et al., 2021), which is “ViT + multi-stage”, and Swin (Liu et al., 2021), which is “ViT + multi-stage + local MSA”.
+- used "vanilla" ViT, PiT, which is “ViT + multi-stage”, and Swin, which is “ViT + multi-stage + local MSA".
 
 
 ![image](https://user-images.githubusercontent.com/64801054/197897709-cf550253-031d-4742-8e2d-7039804a98f8.png)
@@ -57,6 +57,9 @@ My only issue with this paper is that I don't feel like the title really matches
 Overview of how ViTs work: 
 https://theaisummer.com/vision-transformer/
 
+GitHub ViT example code:
+https://github.com/The-AI-Summer/self-attention-cv
+
 Hugging face ViT information:
 https://huggingface.co/docs/transformers/model_doc/vit
 
@@ -71,8 +74,5 @@ https://github.com/google-research/vision_transformer
 origninal paper: https://arxiv.org/abs/2202.06709v1
 
 A. Dosovitskiy, L. Beyer, A. Kolesnikov, D. Weissenborn, X. Zhai, T. Unterthiner, M. Dehghani, M. Minderer, G. Heigold, S. Gelly, et al. An image is worth 16x16 words: Transformers for image recognition at scale. arXiv preprint arXiv:2010.11929, 2020.
-
-
-
 
 
