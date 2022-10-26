@@ -84,6 +84,6 @@ origninal paper: https://arxiv.org/abs/2202.06709v1
 
 A. Dosovitskiy, L. Beyer, A. Kolesnikov, D. Weissenborn, X. Zhai, T. Unterthiner, M. Dehghani, M. Minderer, G. Heigold, S. Gelly, et al. An image is worth 16x16 words: Transformers for image recognition at scale. arXiv preprint arXiv:2010.11929, 2020.
 
-Kaggle CiFar1o ViT example:
+Kaggle CiFar10 ViT example:
 https://www.kaggle.com/code/lonnieqin/cifar10-classification-vision-transformer/notebook
 
