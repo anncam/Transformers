@@ -36,8 +36,8 @@ The authors explored:
 ![image](https://user-images.githubusercontent.com/64801054/197905222-4ba2c073-f018-407b-aa5a-c556744b6566.png)
 
 - ViT models show more similarity between higher and lower layers
-- multi head self attentions aggregate feature maps while convolutional layers diversify them
-- multi head self attentions improve model accuracy and robustness
+- Multi head self attentions aggregate feature maps while convolutional layers diversify them
+- Multi head self attentions improve model accuracy and model robustness
 
 ![image](https://user-images.githubusercontent.com/64801054/197897709-cf550253-031d-4742-8e2d-7039804a98f8.png)
 
@@ -52,12 +52,12 @@ https://github.com/anncam/Transformers/blob/main/ViT_example.ipynb
 
 ### Analysis: 
 
-My mqin issue with this paper is that I don't feel like the title really matches the focus of the paper. The title gives the impression that the paper is going to focus on the basics of how Vision Transformers work, which it did some what, but it also focused on proposing a new model. The authors could have added more information on vision transformers in general to supplement their AlterNet model idea. 
+My main issue with this paper is that I don't feel like the title really matches the focus of the paper. The title gives the impression that the paper is going to focus on the basics of how Vision transformers work, which it did somewhat, but it also focused on proposing a new model. The authors could have added more information on vision transformers in general to supplement their AlterNet model idea. 
 
 ## Questions:
 
-1. How do you think that global and local spatial location informaiton would play a role in how a vision transformers performs?  
-2. 
+1. What is one of the benefits of incorporating multi head self attention into a convolutional neural network like ResNet?
+2. Do you think that global and local spatial location informaiton would play a role in how a vision transformers performs? If so, how?
 3. Does anyone have any other questions? 
 
 
