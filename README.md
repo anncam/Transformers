@@ -18,7 +18,6 @@ The authors explored:
 **Vision Transformers function like transformers do on language processing tasks. ViT's just use self attention to aggregate information instead of using convolution like CNNs.**
 
 ![image](https://user-images.githubusercontent.com/64801054/197888096-7dd5e6be-e87c-49a6-80e6-1dd071271f56.png)
-Dosovitskiy et al. 2020
 
 1. images are split into "patches" which act as sequence tokens in this case
 2. patches are flattened
