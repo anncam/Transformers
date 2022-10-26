@@ -49,15 +49,16 @@ Proposed ***AlterNet*** model to incorporate the advantages of ViT and CNN model
 ## ViT Example code:
 https://github.com/anncam/Transformers/blob/main/ViT_example.ipynb
 
+### Analysis: 
+
+My only issue with this paper is that I don't feel like the title really matches the content. The title gives the impression that the paper is going to focus on the basics of how Vision Transformers work, which it did some what, but it also focused on proposing a new model. The authors could have added more information on vision transformers in general to supplement their AlterNet model idea. 
+
 ## Questions:
 
 1. How do you think that global and local spatial location informaiton would play a role in how a vision transformers performs?  
 2. 
 3. Does anyone have any other questions? 
 
-### Critical Analysis: 
-
-My only issue with this paper is that I don't feel like the title really matches the content. The title gives the impression that the paper is going to focus on the basics of how Vision Transformers work, which it did some what, but it also focused on proposing a new model. The authors could have added more information on vision transformers in general to supplement their AlterNet model idea. 
 
 ## Additional resources
 
