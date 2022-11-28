@@ -6,7 +6,7 @@
 
 **Code Demonstration** 
 
-** Critical Analysis** 
+**Critical Analysis** 
 
 **Resources** 
 
