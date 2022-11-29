@@ -7,8 +7,8 @@
 
 BERT Model
   - **explain**
-  
-https://www.google.com/imgres?imgurl=https%3A%2F%2Feconsultancy.imgix.net%2Fcontent%2Fuploads%2F2018%2F07%2F06155150%2Ftrip-advisor.png&imgrefurl=https%3A%2F%2Feconsultancy.com%2Ftripadvisor-new-social-app-future-travel%2F&tbnid=gwMDZVA9TcecnM&vet=12ahUKEwjmi86ertT7AhVHLVMKHVRmATIQMygDegUIARDpAQ..i&docid=64KRYqw9b664cM&w=1444&h=724&q=trip%20advisor&client=safari&ved=2ahUKEwjmi86ertT7AhVHLVMKHVRmATIQMygDegUIARDpAQ![image](https://user-images.githubusercontent.com/64801054/204654592-4a696649-41ab-49d8-ac3a-2a9feeb07bcf.png)
+
+
 
 
 Hotel Reviews data:
