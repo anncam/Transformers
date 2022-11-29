@@ -10,7 +10,6 @@ BERT Model
 
 
 
-
 Hotel Reviews data:
 - Trip Advisor Hotel Review data set with 20,000 reviews
 - positive reviews assigned value 2 if the rating is 4 or 5
