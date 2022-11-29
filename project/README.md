@@ -1,7 +1,14 @@
 
 **Overview**
+- sentiment analysis to categorize hotel reviews as good, bad, or neutral
+
 
 **Model and Dataset**
+
+- Trip Advisor Hotel Review data set with 20,000 reviews
+- positive reviews assigned value 2
+- neutral reviews assigned value 1
+- negative reviews assigned value 0 
 
 
 **Code Demonstration** 
