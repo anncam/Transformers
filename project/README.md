@@ -13,9 +13,21 @@
 
 **Code Demonstration** 
 
+Hotel Reviews:
+
+https://colab.research.google.com/drive/1L-hJF6PIoRGZuSltBQ2t6CBHagBSvu7X#scrollTo=hquaP0Q676Nz
+
+New York Restaurants:
+
+https://colab.research.google.com/drive/1aRa-lPRxBpFY6Sc2glfkBzyx10gSPtoZ#scrollTo=-tUXrOlZC4AA
+
 **Critical Analysis** 
 
 **Resources** 
+
+BERT Model resource
+
+
 
 
 **Sources**
