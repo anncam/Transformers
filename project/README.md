@@ -5,7 +5,18 @@
 
 **Model and Dataset**
 
+BERT Model
+  - **explain**
+
+Hotel Reviews data:
 - Trip Advisor Hotel Review data set with 20,000 reviews
+- positive reviews assigned value 2 if the rating is 4 or 5
+- neutral reviews assigned value 1 if the rating is 3 
+- negative reviews assigned value 0 if the rating is 1 or 2
+
+New York Restaurants: 
+- retaurant reviews with over 500,000 reviews 
+- contained restaurant name, review ID, date, full reviews and previews of reviews, restaurant URL, and author ID's
 - positive reviews assigned value 2 if the rating is 4 or 5
 - neutral reviews assigned value 1 if the rating is 3 
 - negative reviews assigned value 0 if the rating is 1 or 2
@@ -13,7 +24,7 @@
 
 **Code Demonstration** 
 
-Hotel Reviews:
+Hotel Reviews example:
 
 https://colab.research.google.com/drive/1L-hJF6PIoRGZuSltBQ2t6CBHagBSvu7X#scrollTo=hquaP0Q676Nz
 
