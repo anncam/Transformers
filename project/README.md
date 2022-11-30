@@ -1,9 +1,9 @@
 
-**Overview**
+## **Overview**
 - sentiment analysis to categorize hotel reviews as good, bad, or neutral
 
 
-**Model and Dataset**
+## **Model and Dataset**
 
 BERT Model
   - **explain**
@@ -22,7 +22,7 @@ New York Restaurants:
 - negative reviews assigned value 0 if the rating is 1 or 2
 
 
-**Code Demonstrations** 
+## **Code Demonstrations** 
 
 Hotel Reviews example:
 
@@ -36,9 +36,9 @@ https://colab.research.google.com/drive/1aRa-lPRxBpFY6Sc2glfkBzyx10gSPtoZ#scroll
 
 https://github.com/anncam/Transformers/blob/main/project/transformers_retaurant_reviews.ipynb
 
-**Critical Analysis** 
+## **Critical Analysis** 
 
-**Resources** 
+## **Resources** 
 
 BERT Model resource
 
