@@ -3,14 +3,14 @@
 
 - Sentiment analysis of hotel reviews and restaurant reviews 
 - Good, bad, and neutral reviews 
-- Use BERT model to accurately determine sentiment despite having some masked words  
+- Use BERT model to accurately determine sentiment of a review despite having some masked words and labels. 
 
 
 ## **Model and Dataset**
 
 BERT 
   - Encoder only transformer
-  - Masked language model - meaning it takes a piece of text with some removed tokens and then tries to correctly predict meaning even withouth those missing tokens. 
+  - Masked language model - meaning it takes a piece of text with some removed tokens and then tries to correctly predict the masked tokens using the surrounding tokens in the piece of text. 
  
 
 Hotel Reviews data:
@@ -51,8 +51,14 @@ My next steps would be to improve the model accuracy by running the model on a l
 BERT Model - Huggingface  
 https://huggingface.co/docs/transformers/model_doc/bert
 
+More about BERT models:
+https://www.techtarget.com/searchenterpriseai/definition/BERT-language-model
+
 "Formal Algorithms for Transformers" paper
 https://arxiv.org/pdf/2207.09238.pdf
+
+A more in depth sentiment analysis of the hotel reviews data:
+https://www.kaggle.com/code/emirkocak/in-depth-series-sentiment-analysis-w-transformers/notebook
 
 **Sources**
 Original project code: https://www.kaggle.com/code/charlessamuel/trip-advisor-hotel-reviews-bert/notebook
