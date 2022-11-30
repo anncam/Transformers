@@ -11,6 +11,7 @@
 BERT 
   - Encoder only transformer
   - Masked language model - meaning it takes a piece of text with some removed tokens and then tries to correctly predict the masked tokens using the surrounding tokens in the piece of text. 
+  - BERT also can also be used to perform sentiment classification.  
  
 
 Hotel Reviews data:
