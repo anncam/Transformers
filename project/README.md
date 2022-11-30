@@ -1,6 +1,6 @@
 
 ## **Overview**
-- sentiment analysis to categorize hotel reviews as good, bad, or neutral
+- Sentiment analysis to categorize hotel and restaurant reviews as good, bad, or neutral
 
 
 ## **Model and Dataset**
@@ -40,8 +40,8 @@ https://github.com/anncam/Transformers/blob/main/project/transformers_retaurant_
 
 ## **Resources** 
 
-BERT Model resource
-
+BERT Model - Huggingface  
+https://huggingface.co/docs/transformers/model_doc/bert
 
 
 
