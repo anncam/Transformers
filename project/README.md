@@ -28,7 +28,7 @@ New York Restaurants:
 - negative reviews assigned value 0 if the rating is 1 or 2
 
 
-## **Code Demonstrations** 
+## **Code Demos** 
 
 Hotel Reviews example:
 
@@ -61,7 +61,7 @@ https://arxiv.org/pdf/2207.09238.pdf
 A more in depth sentiment analysis of the hotel reviews data:
 https://www.kaggle.com/code/emirkocak/in-depth-series-sentiment-analysis-w-transformers/notebook
 
-**Sources**
+### **Sources**
 Original project code: https://www.kaggle.com/code/charlessamuel/trip-advisor-hotel-reviews-bert/notebook
 
 Data sources: 
