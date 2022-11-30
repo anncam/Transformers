@@ -3,15 +3,15 @@
 
 - Sentiment analysis of hotel reviews and restaurant reviews 
 - Good, bad, and neutral reviews 
-- Use BERT model to accurately fill in masked words  
+- Use BERT model to accurately determine sentiment despite having some masked words  
 
 
 ## **Model and Dataset**
 
 BERT 
   - Encoder only transformer
-  - Masked language model - meaning it takes a piece of text with some removed tokens and then tries to correctly predict/fill in those missing tokens. 
-  - 
+  - Masked language model - meaning it takes a piece of text with some removed tokens and then tries to correctly predict meaning even withouth those missing tokens. 
+ 
 
 Hotel Reviews data:
 - Trip Advisor Hotel Review data set with 20,000 reviews
