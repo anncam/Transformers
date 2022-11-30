@@ -43,7 +43,7 @@ https://colab.research.google.com/drive/1aRa-lPRxBpFY6Sc2glfkBzyx10gSPtoZ#scroll
 https://github.com/anncam/Transformers/blob/main/project/transformers_retaurant_reviews.ipynb
 
 ## **Critical Analysis** 
-In the case of the restaurant reviews, I think this BERT model did a decent job of unmasking the reviews. I'm not sure if this actually would affect the predictive power ability of the model or not, but one thing that I noticed was that a lot of the most frequently used words appeared in both good and bad reviews. For example, the word "good" could be used in really any context and depending on what words are masked, the model might not be able to predict the correct words to fill in. Obviously there is a big differnce between "our experience at this restaurant was really good" and "overall we had a good time despite poor service". 
+In the case of the restaurant reviews, I think this BERT model did a decent job of unmasking the reviews. I'm not sure if this actually would affect the predictive power ability of the model or not, but one thing that I noticed was that a lot of the most frequently used words appeared in both good and bad reviews. For example, the word "good" could be used in really any context and depending on what words are masked, the model might not be able to predict the correct sentiment or the correct words. Obviously there is a big differnce between "our experience at this restaurant was really good" and "overall we had a good time despite poor service". 
 
 My next steps would be to improve the model accuracy by running the model on a larger subset of the restaurant reviews data or even the entire data set. 
 
